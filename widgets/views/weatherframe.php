@@ -3,9 +3,6 @@
 use humhub\modules\ui\view\components\View;
 use humhub\libs\Html;
 use humhub\widgets\PanelMenu;
-use gm\modules\weather\Assets;
-
-Assets::register($this);
 
 /* @var $weatherUrl string */
 /* @var $location string */

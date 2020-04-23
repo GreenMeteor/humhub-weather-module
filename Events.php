@@ -28,8 +28,6 @@ class Events extends BaseObject
             return;
         }
 
-        $event->sender->view->registerAssetBundle(Assets::class);
-
         $event->sender->addWidget(widgets\WeatherFrame::class, [], [
             'sortOrder' => Setting::Get('timeout', 'weather')
         ]);
