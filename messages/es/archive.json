@@ -1,0 +1,26 @@
+{
+    "<strong>Weather</strong>": [
+        "<strong>Clima</strong>"
+    ],
+    "Weather Settings": [
+        "Ajustes del Clima"
+    ],
+    "Weather URL:": [
+        "URL del Clima:"
+    ],
+    "<strong>Weather</strong> module configuration": [
+        "Configuración del módulo <strong>Clima</strong> "
+    ],
+    "Save": [
+        "Guardar"
+    ],
+    "There is an update for the Weather module! ({version})": [
+        "¡Hay una actualización disponible para el módulo Clima! ({version})"
+    ],
+    "Receive Notifications for administrative events like available updates": [
+        "Recibe notificaciones para eventos administrativos como actualizaciones disponibles"
+    ],
+    "Administrative": [
+        "Administrativo:"
+    ]
+}
