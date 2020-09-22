@@ -1,10 +1,10 @@
 <?php
 
 return [
-    '<strong>Weather</strong>' => '<strong>Weather</strong> ',
-    '<strong>Weather</strong> module configuration' => '<strong>Weather</strong> module configuration',
-    'Save' => 'Save',
-    'Weather Settings' => 'Weather Settings',
+    '<strong>Weather</strong>' => '<strong>Météo</strong> ',
+    '<strong>Weather</strong> module configuration' => 'Configuration du module <strong>Météo</strong>',
+    'Save' => 'Enregistrer',
+    'Weather Settings' => 'Paramètres météo',
     'Forecast7 Weather URL:' => '',
     'Location where you\'re located:' => '',
     'e.g. New York' => '',
