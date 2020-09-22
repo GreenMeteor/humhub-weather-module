@@ -1,4 +1,8 @@
 # Changelogs
+Date: *TBA*
+- Enh: Added translation files
+- Enh: Added partial Français translations ([#18](https://github.com/GreenMeteor/humhub-weather-module/issues/18))
+
 Date: *4/14/2020*
 - Enh: Added border radius to weather iframe ([buddh4](https://github.com/buddh4) | [P/R 12](https://github.com/GreenMeteor/humhub-weather-module/pull/12))
 - Enh: Added CSP nonce compatibility ([buddh4](https://github.com/buddh4) | [P/R 12](https://github.com/GreenMeteor/humhub-weather-module/pull/12))
