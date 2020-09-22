@@ -31,8 +31,8 @@ class ConfigureForm extends Model
     public function attributeLabels()
     {
         return [
-            'serverUrl' => 'Forecast7 Weather URL:',
-            'location' => 'Location where you\'re located:'
+            'serverUrl' => Yii::t('WeatherModule.base', 'Forecast7 Weather URL:'),
+            'location' => Yii::t('WeatherModule.base', 'Location where you\'re located:'),
         ];
     }
 
@@ -42,8 +42,8 @@ class ConfigureForm extends Model
     public function attributeHints()
     {
         return [
-            'serverUrl' => 'e.g. https://forecast7.com/{widget-language}/{id}/{language}/ or https://forecast7.com/{widget-language}/{id}/{language}/?unit=us',
-            'location' => 'e.g. New York'
+            'serverUrl' => Yii::t('WeatherModule.base', 'e.g. https://forecast7.com/{language}/{id}/{location}/ or https://forecast7.com/{language}/{id}/{location}/?unit=us'),
+            'location' => Yii::t('WeatherModule.base', 'e.g. New York'),
         ];
     }
 

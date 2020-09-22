@@ -5,4 +5,5 @@
         'Weather URL:' => 'Weather URL:',
         '<strong>Weather</strong> module configuration' => '<strong>Weather</strong> module configuration',
         'Save' => 'Save',
+        '{language}' => 'en',
     ];

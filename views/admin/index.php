@@ -2,11 +2,12 @@
 
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
+
 ?>
 
 <div class="panel panel-default">
 
-    <div class="panel-heading"><?= '<strong>Weather</strong> module configuration' ?></div>
+    <div class="panel-heading"><?= \Yii::t('WeatherModule.base', '<strong>Weather</strong> module configuration') ?></div>
 
     <div class="panel-body">
 
@@ -17,7 +18,7 @@ use yii\helpers\Html;
         </div>
 
         <div class="form-group">
-            <?= Html::submitButton('Save', ['class' => 'btn btn-primary', 'data-ui-loader' => '']); ?>
+            <?= Html::submitButton(\Yii::t('WeatherModule.base', 'Save'), ['class' => 'btn btn-primary', 'data-ui-loader' => '']); ?>
         </div>
 
         <?php ActiveForm::end(); ?>
