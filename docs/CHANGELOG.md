@@ -1,5 +1,5 @@
 # Changelogs
-Date: *TBA*
+Date: *9/22/2020*
 - Enh: Use `Yii::$app->language` (e.g `{language}`) to get user default language ([#17](https://github.com/GreenMeteor/humhub-weather-module/issues/17))
 - Enh: Added translation files
 - Enh: Added partial Français translations ([#18](https://github.com/GreenMeteor/humhub-weather-module/issues/18))
