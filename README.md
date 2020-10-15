@@ -8,5 +8,3 @@ Create a Weather widget on your Dashboard.
 
 ### __Product Distributors:__
 [@GreenMeteor](https://github.com/GreenMeteor)
-
-> Note: Notice: contributions can be found [here](https://github.com/GreenMeteor/humhub-weather-module/blob/master/.github/CONTRIBUTORS.md).
