@@ -1,13 +1,14 @@
 <?php
 
-use humhub\modules\ui\view\components\View;
 use humhub\libs\Html;
 use humhub\widgets\PanelMenu;
+use humhub\modules\ui\view\components\View;
 
 /* @var $weatherUrl string */
 /* @var $location string */
 /* @var $this View */
 
+$urlJs = 'https://weatherwidget.io/js/widget.min.js';
 ?>
 
 <div class="panel panel-default panel-weather" id="panel-weather">
@@ -34,7 +35,7 @@ use humhub\widgets\PanelMenu;
             'data-theme' => "original"
         ])?>
 
-        <?= Html::beginTag('script', ['id' => 'weatherwidget-io-js', 'src' => 'https://weatherwidget.io/js/widget.min.js']) ?><?= Html::endTag('script') ?>
+        <?= Html::beginTag('script', ['id' => 'weatherwidget-io-js', 'src' => $urlJs]) ?><?= Html::endTag('script') ?>
         <script <?= Html::nonce() ?>>
             $(document).off('humhub:ready.gm_weather').on('humhub:ready.gm_weather', function(event ,pjax) {
                 if(pjax && window.__weatherwidget_init && $('#weatherwidget-io-js').length) {
