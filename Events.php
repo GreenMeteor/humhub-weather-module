@@ -26,7 +26,6 @@ class Events extends BaseObject
         $menu->addEntry(new MenuLink([
             'label' => Yii::t('WeatherModule.base', 'Weather Settings'),
             'url' => Url::toRoute('/weather/admin/index'),
-            'group' => 'settings',
             'icon' => Icon::get('cloud'),
             'isActive' => Yii::$app->controller->module && Yii::$app->controller->module->id == 'weather' && Yii::$app->controller->id == 'admin',
             'sortOrder' => 650,
