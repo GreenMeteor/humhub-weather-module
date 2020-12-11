@@ -4,8 +4,9 @@ namespace gm\modules\weather;
 
 use Yii;
 use yii\helpers\Url;
+use humhub\components\Module as BaseModule;
 
-class Module extends \humhub\components\Module
+class Module extends BaseModule
 {
 
     /**
@@ -32,5 +33,14 @@ class Module extends \humhub\components\Module
             return '';
         }
         return $location;
+    }
+
+    public function getOrder()
+    {
+        $sortOrder = $this->settings->get('sortOrder');
+        if (empty($sortOrder)) {
+            return '';
+        }
+        return $sortOrder;
     }
 }
