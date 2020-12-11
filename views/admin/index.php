@@ -15,6 +15,7 @@ use yii\helpers\Html;
         <div class="form-group">
             <?= $form->field($model, 'serverUrl'); ?>
             <?= $form->field($model, 'location'); ?>
+            <?= $form->field($model, 'sortOrder')->textInput(['class' => 'form-control', 'placeholder' => Yii::t('WeatherModule.base', 'Select a sort order...'), 'disabled' => false])->label(true) ?>
         </div>
 
         <div class="form-group">
