@@ -1,5 +1,6 @@
 <?php
 
+use humhub\modules\ui\form\widgets\SortOrderField;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
@@ -15,6 +16,7 @@ use yii\helpers\Html;
         <div class="form-group">
             <?= $form->field($model, 'serverUrl'); ?>
             <?= $form->field($model, 'location'); ?>
+            <?= $form->field($model, 'sortOrder')->widget(SortOrderField::class) ?>
         </div>
 
         <div class="form-group">

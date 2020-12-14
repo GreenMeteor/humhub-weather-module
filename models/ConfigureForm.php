@@ -15,6 +15,11 @@ class ConfigureForm extends Model
     public $location;
 
     /**
+     * Sort the order of the widget
+     */
+    public $sortOrder;
+
+    /**
      * @inheritdoc
      */
     public function rules()
@@ -22,6 +27,7 @@ class ConfigureForm extends Model
         return [
             ['serverUrl', 'required'],
             ['location', 'required'],
+            ['sortOrder', 'string'],
         ];
     }
 
@@ -53,6 +59,8 @@ class ConfigureForm extends Model
 
         $this->location = Yii::$app->getModule('weather')->settings->get('location');
 
+        $this->sortOrder = Yii::$app->getModule('weather')->settings->get('sortOrder');
+
         return true;
     }
 
@@ -61,6 +69,8 @@ class ConfigureForm extends Model
         Yii::$app->getModule('weather')->settings->set('serverUrl', $this->serverUrl);
 
         Yii::$app->getModule('weather')->settings->set('location', $this->location);
+
+        Yii::$app->getModule('weather')->settings->set('sortOrder', $this->sortOrder);
 
         return true;
     }
