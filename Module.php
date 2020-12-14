@@ -39,7 +39,7 @@ class Module extends BaseModule
     {
         $sortOrder = $this->settings->get('sortOrder');
         if (empty($sortOrder)) {
-            return '';
+            return '100';
         }
         return $sortOrder;
     }
