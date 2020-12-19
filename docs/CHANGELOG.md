@@ -1,5 +1,5 @@
 # Changelogs
-Date: *12/11/2020*
+Release v1.2.0: (*12/18/2020*)
 - Enh: Add sortOrder configurations
 - Enh: Add sortOrder Module settings
 - Enh: Fix sortOrder + addEntry migration
